@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-This project implements an **8-bit Arithmetic Logic Unit (ALU)** using Verilog HDL and verifies its functionality through simulation in Xilinx Vivado.
+This project implements an **8-Bit Arithmetic Logic Unit (ALU)** using Verilog HDL and verifies its functionality using a custom testbench in Xilinx Vivado.
 
-The ALU is one of the fundamental building blocks of a processor. It performs arithmetic and logical operations based on the control input (`sel`).
+The ALU is one of the core building blocks of a processor. It performs arithmetic and logical operations based on a control signal (`sel`).
 
 This project was developed as part of my VLSI Design & Verification learning journey.
 
@@ -37,26 +37,23 @@ The ALU supports the following operations:
 
 ## 📂 Project Structure
 
-```
-ALU-8Bit-Verilog/
+```text
+VLSI-Project-01-8Bit-ALU
 │
 ├── alu.sv
 ├── alu_tb.sv
+├── README.md
 │
-├── screenshots/
-│   ├── alu_code.png
-│   ├── testbench_code.png
-│   ├── waveform.png
-│   └── rtl_schematic.png
-│
-└── README.md
+└── screenshots
+    ├── alu_code.png
+    ├── testbench_code.png
+    ├── waveform.png
+    └── rtl_schematic.png
 ```
 
 ---
 
 ## 🧪 Verification
-
-A dedicated testbench was created to verify all ALU operations.
 
 ### Test Inputs
 
@@ -85,16 +82,20 @@ All operations were successfully verified through behavioral simulation.
 ## 📸 Screenshots
 
 ### RTL Design
-(Add RTL Screenshot Here)
+
+![RTL Design](screenshots/alu_code.png)
 
 ### Testbench
-(Add Testbench Screenshot Here)
+
+![Testbench](screenshots/testbench_code.png)
 
 ### Simulation Waveform
-(Add Waveform Screenshot Here)
+
+![Waveform](screenshots/waveform.png)
 
 ### RTL Schematic
-(Add RTL Schematic Screenshot Here)
+
+![RTL Schematic](screenshots/rtl_schematic.png)
 
 ---
 
@@ -104,10 +105,21 @@ Through this project, I gained hands-on experience in:
 
 - Verilog HDL Coding
 - Combinational Logic Design
-- Testbench Development
+- RTL Development
+- Testbench Writing
 - Functional Verification
-- Simulation Debugging
+- Simulation and Debugging
 - Vivado Design Flow
+
+---
+
+## 🔮 Future Improvements
+
+- Add Carry-Out Flag
+- Add Zero Flag
+- Add Overflow Detection
+- Parameterized ALU Design
+- SystemVerilog Verification Environment
 
 ---
 
@@ -115,7 +127,7 @@ Through this project, I gained hands-on experience in:
 
 **Narasimha Lakkimsetty**
 
-B.Tech Electronics & Communication Engineering (ECE)
+B.Tech Electronics and Communication Engineering (ECE)
 
 Interested in:
 - VLSI Design
@@ -123,6 +135,11 @@ Interested in:
 - FPGA Development
 - Embedded Systems
 
+### Connect with Me
+
+- LinkedIn: www.linkedin.com/in/lakshminarasimhaswamy
+- GitHub: https://github.com/narasimha-01
+
 ---
 
-⭐ If you found this project useful, feel free to star the repository.
+⭐ If you found this project useful, consider giving it a star.
